@@ -1,0 +1,112 @@
+# Copyright (C) 2023 Jenny Rigsjö
+# This file is distributed under the GPL v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Empty Media Trash 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/empty-media-trash\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2023-02-17T14:57:04+01:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.6.0\n"
+"X-Domain: empty-media-trash\n"
+
+#. Plugin Name of the plugin
+msgid "Empty Media Trash"
+msgstr ""
+
+#. Description of the plugin
+msgid "Plugin to customize the frequency with which the media library trash is emptied."
+msgstr ""
+
+#. Author of the plugin
+msgid "Jenny Rigsjö"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://jennyrigsjo.se"
+msgstr ""
+
+#: admin/class-emt-admin.php:44
+msgid "Delete trashed files older than:"
+msgstr ""
+
+#: admin/class-emt-admin.php:45
+msgid "Individual files will be removed from trash after the specified number of days. Tip: Setting the value to 0 will deactivate the option."
+msgstr ""
+
+#: admin/class-emt-admin.php:48
+msgid "Periodically remove all files from trash:"
+msgstr ""
+
+#: admin/class-emt-admin.php:49
+msgid "All files will be removed from trash at the specified time interval, regardless of how long they have been in the trash. Tip: Selecting \"Never\" will deactivate the option."
+msgstr ""
+
+#: admin/class-emt-admin.php:66
+msgid "Delete trashed media files"
+msgstr ""
+
+#: admin/class-emt-admin.php:106
+msgid "The value of the WP constant MEDIA_TRASH is currently set to false. For the Empty Media Trash plugin to work, the value of MEDIA_TRASH must be set to true."
+msgstr ""
+
+#: admin/class-emt-admin.php:113
+msgid "The value of the WP constant DISABLE_WP_CRON is currently set to true. For the Empty Media Trash plugin to work, the value of DISABLE_WP_CRON must be set to false."
+msgstr ""
+
+#: admin/class-emt-admin.php:120
+msgid "The WP constant EMPTY_TRASH_DAYS currently has a value lower than 30 (its default value). This means that all trashed files, including trashed media files, will be permanently deleted after the number of days specified by the value. Consider setting the value of EMPTY_TRASH_DAYS to 30 to avoid potential conflict with the Empty Media Trash plugin."
+msgstr ""
+
+#: admin/class-emt-admin.php:139
+msgid "Settings"
+msgstr ""
+
+#: admin/class-emt-admin.php:209
+msgid "Customize how long media files are left in the trash before they are permanently deleted"
+msgstr ""
+
+#: admin/class-emt-admin.php:229
+msgid "days"
+msgstr ""
+
+#: admin/class-emt-admin.php:235
+msgid "Trashed files will be removed after"
+msgstr ""
+
+#: admin/class-emt-admin.php:238
+#: admin/class-emt-admin.php:281
+msgid "Option deactivated."
+msgstr ""
+
+#: admin/class-emt-admin.php:270
+msgid "All currently trashed files will be deleted:"
+msgstr ""
+
+#: includes/class-emt-options.php:85
+msgid "Never"
+msgstr ""
+
+#: includes/class-emt-options.php:89
+msgid "Daily"
+msgstr ""
+
+#: includes/class-emt-options.php:93
+msgid "Once a week"
+msgstr ""
+
+#: includes/class-emt-options.php:97
+msgid "Once every two weeks"
+msgstr ""
+
+#: includes/class-emt-options.php:101
+msgid "Once every three weeks"
+msgstr ""
+
+#: includes/class-emt-options.php:105
+msgid "Once every four weeks"
+msgstr ""
