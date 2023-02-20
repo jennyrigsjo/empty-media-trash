@@ -17,6 +17,8 @@ By default, media (such as images) and other post types (such as posts and pages
 
 == Installation ==
 
+**DISCLAIMER: The plugin is not yet listed in the official WordPress directory. Do not install directly on a production site, always test new plugins on a development site first.**
+
 1. Unzip the folder to the `/wp-content/plugins/` directory
 2. Activate the plugin through the 'Plugins' menu in the WordPress admin area.
 3. Go to Settings->Media and customize the file removal frequency for the media trash.
